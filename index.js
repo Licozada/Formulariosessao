@@ -1,8 +1,5 @@
 import express from 'express';
-
-
 import session from 'express-session';
-
 import cookieParser from 'cookie-parser';
 
 
@@ -32,8 +29,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('./paginas/publica'));
 
-const porta = 3000;
-const host = '0.0.0.0';
+const port = process.env.PORT || 3000;
 
 var listaProdutos = [];
 
@@ -358,6 +354,6 @@ app.get('/', verificarAutenticacao, menuView);
 app.get('/cadastrarProduto', verificarAutenticacao, cadastroProdutoView);
 app.post('/cadastrarProduto', verificarAutenticacao, cadastrarProduto);
 
-app.listen(porta, host, () => {
-    console.log(`Servidor iniciado e em execução no endereço http://${host}:${porta}`);
+app.listen(port, () => {
+    console.log(`Servidor iniciado e em execução na porta ${port}`);
 });
