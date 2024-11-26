@@ -1,8 +1,9 @@
-const express = require('express');
+import express from 'express';
 
-const session = require('express-session');
 
-const cookieParser = require('cookie-parser');
+import session from 'express-session';
+
+import cookieParser from 'cookie-parser';
 
 
 
