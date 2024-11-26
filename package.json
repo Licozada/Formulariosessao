@@ -1,5 +1,5 @@
 {
-  "name": "formularioatualizado",
+  "name": "Formulariosessao",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Licozada/FORMULARIOATUALIZADO.git"
+    "url": "git+https://github.com/Licozada/Formulariosessao.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Licozada/FORMULARIOATUALIZADO/issues"
+    "url": "https://github.com/Licozada/Formulariosessao.git"
   },
-  "homepage": "https://github.com/Licozada/FORMULARIOATUALIZADO#readme",
+  "homepage": "https://github.com/Licozada/Formulariosessao.git",
   "description": "",
   "dependencies": {
     "cookie-parser": "^1.4.7",
